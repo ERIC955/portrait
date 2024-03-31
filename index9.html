@@ -18,14 +18,15 @@ body {
     100% { opacity: 1; }
 }
 .bg{
-    background-image: url("https://eric955.github.io/portrait/0454.jpg");
+    background-image: url("https://eric955.github.io/portrait/54.gif");
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.6;
+    position: relative;
 }
 .t{
-    position: absolute;
-    top:650px;
-    right: 100px;
+    position: relative;
+    top:-500px;
+    right: 400px;
 }
 
 a{
@@ -42,7 +43,7 @@ a:hover{
 .as {
     height: 100vh;
     transform: translateX(-95px);
-    width: 100px; /* Initial width */
+    width: 100px; 
     transition: width 0.5s ease-in-out;
     position: absolute;
     z-index: 999; 
@@ -55,7 +56,9 @@ a:hover{
 
 .d{
     width: 100%;
+    height: 100vh;
     transition: width 0.5s ease-in-out;
+    position: relative;
 }
 
 
@@ -63,30 +66,36 @@ a:hover{
 <body>
     <div class="d-flex ">
         <div class="as"  >
-                <div class="d-flex   ">
-                    <a class="d-flex fs-5  justify-content-center align-items-center " href="index.html">序幕</a>
-                </div>
-                <div class="d-flex  ">
-                    <a class="d-flex pe-3 fs-5  justify-content-center align-items-center " href="index2.html">亂.</a>
-                </div>
-                <div class="d-flex  ">
-                    <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index3.html">靜.</a>
-                </div>
-                <div class="d-flex  ">
-                    <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index4.html">迷.</a>
-                </div>
-                <div class="d-flex  ">
-                    <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index5.html">回.</a>
-                </div>
-                <div class="d-flex  ">
-                    <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index6.html">容.</a>
-                </div>
-                <div class="d-flex  ">
-                    <a class="d-flex fs-5  justify-content-center align-items-center " href="index7.html">採訪</a>
-                </div>
-                <div class="d-flex  ">
-                    <a class="d-flex fs-5 justify-content-center align-items-center " href="index8.html">總結</a>
-                </div>
+            <div class="d-flex   ">
+                <a class="d-flex fs-5  justify-content-center align-items-center " href="index.html">序幕</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex pe-3 fs-5  justify-content-center align-items-center " href="index2.html">亂.</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index3.html">靜.</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index4.html">迷.</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index5.html">回.</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex pe-3 fs-5 justify-content-center align-items-center " href="index6.html">容.</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex fs-5  justify-content-center align-items-center " href="index7.html">採訪</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex fs-5 justify-content-center align-items-center " href="index8.html">總結</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex ms-4  fs-6 justify-content-center align-items-center " href="index9.html">虛擬角色</a>
+            </div>
+            <div class="d-flex  ">
+                <a class="d-flex ms-4  fs-6 justify-content-center align-items-center " href="index10.html">預期效果</a>
+            </div>
             </aside>
         </div> 
         <div class="d">
@@ -94,16 +103,20 @@ a:hover{
             <div class="d-flex justify-content-center align-items-center h-100  t"
             style="height: 10px !important;">
                 <div class="" style="width: 600px; opacity:1;">
-                    <h1 class="display-3  text-nowrap   d-flex justify-content-center" style="font-weight: bold;">龍岡戰爭的見證</h1>
+                    <h1 class="display-6 d-flex justify-content-center " style="font-weight: bold;">虛擬角色設計</h1>
+                    <p class="text-center" style="margin-top: 30px; font-weight: bold; font-size:14px;">（開場）從現實中的電腦螢幕zoom in 進入電腦中的畫面 </p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（畫面一）畫面停留在異域故事館的場景，由真人講述當時的戰爭的大綱脈絡</p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（畫面二）由vtuber講述當時的戰亂內容，將提到的內容搭配背景呈現（ex.提到「掛滿武器的房間」在背景放上彈砲槍枝的照片</p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（畫面三）畫面停留在滇緬遺子的雕像和傳聲筒的照片，由真人講述他的背景故事</p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（畫面四）互動裝置的畫面當作背景，vtuber 講解罌粟花和戰爭的關聯</p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（畫面五）隧道的畫面跟老照片，真人講述孤軍撤台的過程</p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（畫面六）回到眷村居家的畫面，vtuber講解「容」代表的意涵</p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（採訪畫面）vtuber採訪當地居民與導覽員</p>
+                    <p class="text-center" style=" font-weight: bold; font-size:14px; ">（結尾）依序放上從「亂」到「容」的照片，由vtuber做結尾</p>
                 </div>
             </div>
         </div>
-    </div>
-
-
-
-
-
+    </div> 
 </body>
 <script>
 
