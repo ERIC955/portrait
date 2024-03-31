@@ -14,11 +14,11 @@ body {
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0.1; }
-    50% { opacity: 0.5; }
+    0% { opacity: 0.5; }
     100% { opacity: 1; }
 }
 .bg{
+    background-image: url("https://eric955.github.io/portrait/img0464.jpg");
     background-size: cover;
     opacity: 0.3;
     position: relative;
@@ -26,9 +26,9 @@ body {
     background-position: center;
 }
 .t{
-    position: absolute;
-    top:500px;
-    right: 600px;
+    position: relative;
+    top:-200px;
+    right: 300px;
 }
 
 a{
@@ -64,7 +64,7 @@ a:hover{
 
 </style>
 <body>
-    <div class="d-flex ">
+    <div class="d-flex " style="height: 100vh;">
         <div class="as"  >
                 <div class="d-flex   ">
                     <a class="d-flex fs-5  justify-content-center align-items-center " href="index.html">序幕</a>
@@ -92,7 +92,7 @@ a:hover{
                 </div>
         </div> 
         <div class="d">
-            <img src="https://eric955.github.io/portrait/img0464.jpg" alt="" class="bg" style="height: 100vh; " >
+            <div style="height: 100vh; " class="bg"></div>
             <div class="d-flex justify-content-center align-items-center h-100  t"
             style="height: 10px !important;">
                 <div class="" style="width: 600px; opacity:1;">
